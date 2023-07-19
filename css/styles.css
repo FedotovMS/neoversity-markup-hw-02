@@ -23,14 +23,14 @@ body {
 
 .container {
   /* padding: 0 156px; */
-  text-align: center;
+  /* text-align: center; */
 }
-section {
-  /* padding-bottom: 120px;
-  padding-top: 120px; */
+/* section {
+  padding-bottom: 120px;
+  padding-top: 120px;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 ul {
   list-style-type: none;
@@ -50,12 +50,12 @@ h3 {
   color: var(--dark);
 }
 
-h2 {
+/* h2 {
   margin-bottom: 72px;
 }
 h3 {
   margin-bottom: 8px;
-}
+} */
 
 a {
   text-decoration: none;
@@ -86,11 +86,11 @@ button {
   color: var(--primary-brand);
 }
 
-.header-section {
+/* .header-section {
   margin-bottom: 0;
-  /* padding: 0;
-  border-bottom: 1px solid #e7e9fc; */
-}
+  padding: 0;
+  border-bottom: 1px solid #e7e9fc;
+} */
 
 /* .header-container {
   display: flex;
@@ -142,8 +142,8 @@ button {
 }
 
 .hero-title {
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
   /* display: block; */
   /* width: 496px; */
   font-size: 56px;
@@ -151,7 +151,7 @@ button {
   line-height: calc(60 / 56);
   letter-spacing: 1.12px;
   color: var(--white);
-  margin-bottom: 48px;
+  /* margin-bottom: 48px; */
 }
 
 .hero-btn {
@@ -174,11 +174,11 @@ button {
   background-color: var(--pressed-state);
 }
 
-.features-list {
-  /* display: flex;
-  gap: 24px; */
+/* .features-list {
+  display: flex;
+  gap: 24px;
   text-align: left;
-}
+} */
 
 /* .activity-section {
   padding-top: 0;
@@ -215,9 +215,9 @@ button {
   /* padding-top: 100px;
   padding-bottom: 100px; */
 }
-.footer-container {
+/* .footer-container {
   text-align: left;
-}
+} */
 
 /* .logo-footer {
   padding-bottom: 17px;
