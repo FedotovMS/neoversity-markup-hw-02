@@ -1,4 +1,3 @@
-/* ====== VARIABLES ======= */
 :root {
   --primary-color: #2e2f42;
   --secondary-color: #4d5ae5;
@@ -6,25 +5,27 @@
   --color-portfolio: #434455;
   --primary-font: 'Raleway', sans-serif;
   --secondary-font: 'Roboto', sans-serif;
+  --background-color: #fff;
+  --action-color: #404bbf;
 }
 /* ====== COMMON STYLES ======= */
-.list li {
+li {
   list-style: none;
 }
-.link {
+a {
   text-decoration: none;
 }
 button,
-portfolio-button {
+filter-btn {
   cursor: pointer;
 }
 body {
   font-family: var(--secondary-font);
-  color: #434455;
-  background-color: #ffffff;
+  color: var(--color-portfolio);
+  background-color: var(--background-color);
 }
-/* ====== HEADER ======= */
-.logotype-blue {
+
+.logo-blue {
   font-family: var(--primary-font);
   font-size: 18px;
   font-style: normal;
@@ -34,7 +35,7 @@ body {
   text-transform: uppercase;
   color: var(--secondary-color);
 }
-.logotype-dark {
+.logo-dark {
   font-family: var(--primary-font);
   font-size: 18px;
   font-style: normal;
@@ -44,7 +45,7 @@ body {
   text-transform: uppercase;
   color: var(--primary-color);
 }
-.logotype-white {
+.logo-white {
   font-family: var(--primary-font);
   font-size: 18px;
   font-style: normal;
@@ -52,10 +53,10 @@ body {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: var(--color-txt-button);
 }
 
-.menu-link {
+.nav-link {
   /* Body Medium */
   font-size: 16px;
   font-style: normal;
@@ -74,39 +75,39 @@ body {
   letter-spacing: 0.32px;
   color: var(--color-portfolio);
 }
-.menu-link:hover,
-.menu-link:focus,
+.nav-link:hover,
+.nav-link:focus,
 .contact-link:hover,
 .contact-link:focus {
-  color: #404bbf;
+  color: var(--action-color);
 }
 /* ====== SECTION1 ======= */
 .hero {
   background-color: var(--primary-color);
 }
-.topic {
+.hero-title {
   font-size: 56px;
   font-weight: 500;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  color: #ffffff;
+  color: var(--background-color);
 }
-.top-button {
+.hero-btn {
   font-family: var(--secondary-font);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: var(--secondary-color);
-  color: #ffffff;
+  color: var(--background-color);
 }
-.top-button:hover,
-.top-button:focus {
-  background-color: #404bbf;
+.hero-btn:hover,
+.hero-btn:focus {
+  background-color: var(--action-color);
 }
 /* ====== SECTION2 ======= */
-.values {
+.value-tittle {
   font-family: var(--secondary-font);
   font-size: 20px;
   font-weight: 500;
@@ -114,12 +115,12 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-color);
 }
-.description {
+.value-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 /* ====== SECTION3 ======= */
-.top-doing {
+.team-title {
   font-size: 36px;
   font-weight: 500;
   line-height: 1.11;
@@ -130,10 +131,10 @@ body {
 }
 /* ====== SECTION4 ======= */
 .team {
-  background-color: #f4f4fd;
+  background-color: var(--color-txt-button);
 }
-.team-list {
-  background-color: #ffffff;
+.team-item {
+  background-color: var(--background-color);
 }
 .team-names {
   font-size: 20px;
@@ -148,16 +149,16 @@ body {
   letter-spacing: 0.02em;
 }
 /* ====== FOOTER ======= */
-.page-footer {
+.footer {
   background-color: var(--primary-color);
 }
-.description-footer {
-  color: #f4f4fd;
+.footer-text {
+  color: var(--color-txt-button);
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 /* ====== PORTFOLIO ======= */
-.portfolio-button {
+.filter-btn {
   color: var(--secondary-color);
   background-color: var(--color-txt-button);
   font-family: var(--secondary-font);
@@ -166,19 +167,19 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
-.portfolio-button:hover,
-.portfolio-button:focus {
-  color: #ffffff;
-  background-color: #404bbf;
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--background-color);
+  background-color: var(--action-color);
 }
-.portfolio-list {
+.filter-list {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-color);
 }
-.portfolio-type {
+.portfolio-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
