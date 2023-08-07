@@ -8,17 +8,20 @@
   --background-color: #fff;
   --action-color: #404bbf;
 }
-/* ====== COMMON STYLES ======= */
+
 li {
   list-style: none;
 }
+
 a {
   text-decoration: none;
 }
+
 button,
 filter-btn {
   cursor: pointer;
 }
+
 body {
   font-family: var(--secondary-font);
   color: var(--color-portfolio);
@@ -35,6 +38,7 @@ body {
   text-transform: uppercase;
   color: var(--secondary-color);
 }
+
 .logo-dark {
   font-family: var(--primary-font);
   font-size: 18px;
@@ -45,6 +49,7 @@ body {
   text-transform: uppercase;
   color: var(--primary-color);
 }
+
 .logo-white {
   font-family: var(--primary-font);
   font-size: 18px;
@@ -65,9 +70,11 @@ body {
   letter-spacing: 0.32px;
   color: var(--primary-color);
 }
+
 .contact {
   font-style: normal;
 }
+
 .contact-link {
   font-size: 16px;
   /* font-style: normal; */
@@ -75,16 +82,18 @@ body {
   letter-spacing: 0.32px;
   color: var(--color-portfolio);
 }
+
 .nav-link:hover,
 .nav-link:focus,
 .contact-link:hover,
 .contact-link:focus {
   color: var(--action-color);
 }
-/* ====== SECTION1 ======= */
+
 .hero {
   background-color: var(--primary-color);
 }
+
 .hero-title {
   font-size: 56px;
   font-weight: 500;
@@ -93,6 +102,7 @@ body {
   text-align: center;
   color: var(--background-color);
 }
+
 .hero-btn {
   font-family: var(--secondary-font);
   font-size: 16px;
@@ -102,11 +112,12 @@ body {
   background-color: var(--secondary-color);
   color: var(--background-color);
 }
+
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: var(--action-color);
 }
-/* ====== SECTION2 ======= */
+
 .value-tittle {
   font-family: var(--secondary-font);
   font-size: 20px;
@@ -115,11 +126,12 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-color);
 }
+
 .value-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/* ====== SECTION3 ======= */
+
 .team-title {
   font-size: 36px;
   font-weight: 500;
@@ -129,13 +141,15 @@ body {
   text-transform: capitalize;
   color: var(--primary-color);
 }
-/* ====== SECTION4 ======= */
+
 .team {
   background-color: var(--color-txt-button);
 }
+
 .team-item {
   background-color: var(--background-color);
 }
+
 .team-names {
   font-size: 20px;
   font-weight: 500;
@@ -143,21 +157,25 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-color);
 }
+
 .team-staff {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-/* ====== FOOTER ======= */
+
 .footer {
   background-color: var(--primary-color);
 }
+
 .footer-text {
   color: var(--color-txt-button);
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
+
 /* ====== PORTFOLIO ======= */
+
 .filter-btn {
   color: var(--secondary-color);
   background-color: var(--color-txt-button);
@@ -167,11 +185,13 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
+
 .filter-btn:hover,
 .filter-btn:focus {
   color: var(--background-color);
   background-color: var(--action-color);
 }
+
 .filter-list {
   font-size: 20px;
   font-weight: 500;
@@ -179,6 +199,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-color);
 }
+
 .portfolio-text {
   font-size: 16px;
   line-height: 1.5;
